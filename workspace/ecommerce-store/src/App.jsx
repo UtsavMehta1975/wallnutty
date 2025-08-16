@@ -19,7 +19,7 @@ const AccountPage = lazy(() => import('./pages/public/Account.jsx'))
 
 function App() {
   return (
-    <div className="flex min-h-full flex-col bg-background">
+    <div className="flex min-h-full flex-col bg-background bg-[radial-gradient(70%_50%_at_100%_0%,rgba(37,99,235,.08),transparent_55%),radial-gradient(60%_60%_at_0%_100%,rgba(245,158,11,.08),transparent_55%)] dark:bg-[radial-gradient(70%_50%_at_100%_0%,rgba(37,99,235,.15),transparent_55%),radial-gradient(60%_60%_at_0%_100%,rgba(245,158,11,.12),transparent_55%)]">
       <Header />
       <CartWatcher />
       <main className="flex-1">
